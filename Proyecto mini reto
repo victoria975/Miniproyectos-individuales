@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <header>
+        <!-- Aqui aparece el nombre de mi pagina web -->
+        <h1>Zona de Cabecera: Mi Perfil Profesional.</h1>
+    </header>
+
+    <main>
+        <section>
+            <!-- Agrupamos los elementos de nuestra colección aquí -->
+            <h2>Biografía: Listado de mis objetos favoritos.</h2>
+            <article>
+                <!-- Cada elemento individual de la colección es un article -->
+                <strong>Habilidades:</strong> Aquí irán los datos del primer objeto.
+            </article>
+        </section>
+        <hr>
+        <section>
+            <!-- Agrupamos los elementos de nuestra colección aquí -->
+            <h2>Seccion dos de la colección</h2>
+            <article>
+                <!-- Cada elemento individual de la colección es un article -->
+                Habilidades: Aquí irán los datos del primer objeto.
+            </article>
+        </section>
+        <ul>
+            <li><strong>Autor:</strong> J.R.R. Tolkien</li>
+             <li><strong>Géneros:</strong>
+                <ul>
+                    <li>Fantasía</li>
+                    <li>Aventura</li>
+                </ul>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <!-- Créditos y fecha del proyecto -->
+        Pie de página: Creado por [Tu Nombre] - [Año].
+    </footer>
+</body>
+</html>
+

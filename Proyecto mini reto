@@ -14,7 +14,8 @@
     <main>
         <section>
             <!-- Agrupamos los elementos de nuestra colección aquí -->
-            <h2>Biografía: Listado de mis objetos favoritos.</h2>
+            <h2>Biografía:</h2>
+            <p>Mi nombre es Victoria y tengo 17 años. Me gusta cocinar, leer y ver películas.</p>
             <article>
                 <!-- Cada elemento individual de la colección es un article -->
                 <strong>Habilidades:</strong> Aquí irán los datos del primer objeto.
@@ -26,7 +27,7 @@
             <h2>Seccion dos de la colección</h2>
             <article>
                 <!-- Cada elemento individual de la colección es un article -->
-                Habilidades: Aquí irán los datos del primer objeto.
+                <strong>Habilidades:</strong> Aquí irán los datos del primer objeto.
             </article>
         </section>
         <ul>
@@ -42,7 +43,7 @@
 
     <footer>
         <!-- Créditos y fecha del proyecto -->
-        Pie de página: Creado por [Tu Nombre] - [Año].
+        <p>Pie de página: </em>Página creada por Victoria - 2026.</em></p>
     </footer>
 </body>
 </html>

@@ -15,11 +15,8 @@
         <section>
             <!-- Agrupamos los elementos de nuestra colección aquí -->
             <h2>Biografía:</h2>
-            <p>Mi nombre es Victoria y tengo 17 años. Me gusta cocinar, leer y ver películas.</p>
+            <p>Mi nombre es Victoria y tengo <strong>17</strong> años. Me gusta cocinar, leer y ver películas.Vivo en <strong>Ubrique.</strong></p>
             <article>
-                <!-- Cada elemento individual de la colección es un article -->
-                <strong>Habilidades:</strong> Aquí irán los datos del primer objeto.
-            </article>
         </section>
         <hr>
         <section>
@@ -27,24 +24,34 @@
             <h2>Seccion dos de la colección</h2>
             <article>
                 <!-- Cada elemento individual de la colección es un article -->
-                <strong>Habilidades:</strong> Aquí irán los datos del primer objeto.
+                <strong>Habilidades:</strong> 
+                <p>(Aqui van las habilidades)</p>
             </article>
         </section>
+        <strong>Listado de programación:</strong> 
         <ul>
-            <li><strong>Autor:</strong> J.R.R. Tolkien</li>
-             <li><strong>Géneros:</strong>
-                <ul>
-                    <li>Fantasía</li>
-                    <li>Aventura</li>
-                </ul>
+            <li><strong>Lenguajes de programación:</strong> </li>
+              <ul>
+                 <li>Html</li>
+                 <li>Java</li>
+                 <li>Python</li>
+                    <ul>
+                        <li>Variables</li>
+                        <li>Entrada y salida</li>
+                        <li>Bucles</li>
+                        <li>Operadores asimétricos</li>
+                    </ul>
+              </ul>
             </li>
         </ul>
     </main>
 
     <footer>
         <!-- Créditos y fecha del proyecto -->
-        <p>Pie de página: </em>Página creada por Victoria - 2026.</em></p>
+        </em>Pie de página:Página creada por Victoria - 2026.</em>
     </footer>
 </body>
 </html>
+
+
 

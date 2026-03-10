@@ -1,34 +1,86 @@
 /* Estilo general para toda la página */
 body {
-    background-color: #e7a9e2; /* Rosita claro en hexadecimal */
-    font-family: sans-serif;
+    background-color: #ffc3e8; /* Gris muy claro */
+    font-family: "Poiret One", sans-serif; /* Fuente elegante */      
+    font-weight: 700;       /* Negrita */
 }
 
 /* Alineamos el título principal al centro */
 #titulo-principal {
-    color: rgb(255, 127, 244);
+    color: rgb(201, 106, 193);
     text-align: center;
 }
 
 /* Estilo para elementos urgentes */
 .urgente {
-    color: #FF0000; /* Rojo puro en hexadecimal */
-    font-weight: bold; /* Texto en negrita */
+    color: #610044; /* Rosa oscuro */
+    font-weight: bold; /* Negrita */
 }
-
 
 /* El contenedor que envuelve los elementos */
 section {
-    display: flex;       /* Activa el modo flexible para sus hijos */
-    flex-wrap: wrap;    /* Si no caben, saltan a la siguiente línea */
-    justify-content: center; /* Centra las tarjetas horizontalmente */
-    gap: 20px;          /* Crea un pasillo de separación entre tarjetas */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px; /* Más espacio alrededor de las tarjetas */
 }
 
-/* Las cajas de cada elemento (los article) */
+/* Las cajas de cada elemento (article) */
 article {
-    width: 300px;       /* Ancho fijo para que parezcan tarjetas */
-    background-color: white;
-    padding: 15px;
-    border: 1px solid #ddd;
+    width: 700px;
+    max-width: 90%; /* Para que no se desborde en pantallas grandes */
+    background-color: rgb(238, 202, 233); /* Clarito */
+    padding: 50px;
+    border: 2px solid #680049;
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08); /* Sombra inicial */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+}
+
+/* Centrar y estilizar imágenes */
+article img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px; /* Bordes redondeados para imágenes */
+}
+
+/* Efecto hover moderno */
+article:hover {
+    transform: translateY(-8px); /* Sube un poco */
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15); /* Sombra más visible */
+    cursor: pointer;
+}
+
+/* Estilo de los enlaces (botones) */
+article a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #00054e;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+article a:hover {
+    background-color: #1a1f8a; /* Cambio suave al pasar el mouse */
+}
+
+/* Estilos para móviles (pantallas de menos de 600px) */
+@media (max-width: 768px) {
+    article {
+        width: 100%; /* La tarjeta ocupa todo el ancho en el móvil */
+    }
+    
+    h1 {
+        font-size: 1.5rem; /* Hacemos el título un poco más pequeño */
+    }
+}
+
+.poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
